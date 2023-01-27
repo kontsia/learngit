@@ -1,2 +1,2 @@
 # learngit
-Fundamentals material about learning GIT
+Fundamental material about learning GIT
