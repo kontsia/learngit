@@ -1,0 +1,5 @@
+Author: Kostas Tsiagas
+
+git status
+git add .
+git diff --cached
