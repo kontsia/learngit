@@ -1,2 +1,3 @@
 # learngit
-Fundamental material about learning GIT
+
+Repo for testing GIT commands
