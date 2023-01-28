@@ -3,3 +3,5 @@ Author: Kostas Tsiagas
 git status
 git add .
 git diff --cached
+git commit -m "message
+git push
