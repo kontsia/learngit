@@ -1,8 +1,19 @@
 Author: Kostas Tsiagas
 
+------------ Section 1 ------------
 git status
 git add .
 git diff --cached
 git commit -m "message"
 git pull --> before start working on local repo ALWAYS get a fresh image of the remote repository
 git push origin main --> upload the changes from local repository (main branch) to remote repository (main branch)
+git log
+git log --oneline
+git log -1
+git show commit_id
+git show --name-status
+
+------------ Section 2 ------------
+------------ Section 3 ------------
+------------ Section 4 ------------
+------------ Section 5 ------------
