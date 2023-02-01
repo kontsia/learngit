@@ -3,5 +3,6 @@ Author: Kostas Tsiagas
 git status
 git add .
 git diff --cached
-git commit -m "message
-git push
+git commit -m "message"
+git pull --> before start working on local repo ALWAYS get a fresh image of the remote repository
+git push origin main --> upload the changes from local repository (main branch) to remote repository (main branch)
