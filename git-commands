@@ -14,6 +14,26 @@ git show commit_id
 git show --name-status
 
 ------------ Section 2 ------------
+useful url for how commits are looked like in git time-line: http://onlywei.github.io/explain-git-with-d3/#zen
+
+git branch feature1 --> creates a new branch with name feature1 BUT YOU DONT SWITCH TO IT!!!
+git checkout feature1 --> switch to branch named "feature1"
+
+git checkout -b feature2 --> creates a new branch named "feature2" and SWITCH to it at the same time !!!!
+
+origin/master:
+Origin and Master are two different terminologies used when working and managing the git projects. Origin is the name used for the remote repository. Master is the name of the branch
+
+origin/HEAD:
+origin/HEAD is the active branch on the remote repo.
+
+HEAD -> master:
+Means that the HEAD is pointing to master branch
+
+HEAD -> feature1:
+Means that the HEAD is pointing to branch named "feature1"
+
+
 ------------ Section 3 ------------
 ------------ Section 4 ------------
 ------------ Section 5 ------------
