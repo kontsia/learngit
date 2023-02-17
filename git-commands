@@ -35,7 +35,19 @@ Means that the HEAD is pointing to branch named "feature1"
 
 
 ------------ Section 3 ------------
+git merge repo1 --> means that: If you are in a branch named "branch0) you will merge INTO IT, the changes of branch1
+Example1: You are in main branch and you want to merge branch "feature1"
+		git checkout main
+		git merge feature1
+Example2: You are in "feature1" branch and you want to merge branch "feature2"
+		git checkout feature1
+		git merge feature2
 
+ATTENTION: 	Let's say that we are on branch "feature1" and we have merged "feature2" into "feature1".
+		If we make a cnage/commit on branch "feature1" and we want to switch to the (merged) "feature2, every change we did on the "feature1 (the previous branch), will be lost...!!!!!
+
+
+ADVICE:		Once we're done merging, we should delete the "merged" branch !!!
 
 
 
