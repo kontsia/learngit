@@ -35,10 +35,14 @@ Means that the HEAD is pointing to branch named "feature1"
 
 
 ------------ Section 3 ------------
-git merge repo1 --> means that: If you are in a branch named "branch0) you will merge INTO IT, the changes of branch1
-Example1: You are in main branch and you want to merge branch "feature1"
+MERGE: In order to correctly merge within command-line, we need to be on the branch we want to merge into!
+
+git merge repo1 --> means that: If you are in a branch named "branch0 you will merge INTO IT, the changes of branch1
+
+Example1: You want to merge the commits of branch "feature1" to main branch
 		git checkout main
-		git merge feature1
+		git merge feature1  --> every commit of feature1 MERGES to main branch (because we are in main branch when we executed merge command)
+
 Example2: You are in "feature1" branch and you want to merge branch "feature2"
 		git checkout feature1
 		git merge feature2
