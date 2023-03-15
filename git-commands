@@ -1,6 +1,6 @@
 Author: Kostas Tsiagas
 
------------- Section 1 ------------
+------------ Section 1: BASIC GIT FLOW ------------
 git status
 git add .
 git diff --cached
@@ -13,7 +13,10 @@ git log -1
 git show commit_id
 git show --name-status
 
------------- Section 2 ------------
+
+
+
+------------ Section 2: BRANCHING. WORKING WITH LOCAL AND REMOTE BRANCHES ------------
 A useful url for how commits are looked like in git time-line: http://onlywei.github.io/explain-git-with-d3/#zen
 
 git branch feature1 --> creates a new branch with name feature1 BUT YOU DONT SWITCH TO IT!!!
@@ -34,7 +37,9 @@ HEAD -> feature1:
 Means that the HEAD is pointing to branch named "feature1"
 
 
------------- Section 3 ------------
+
+
+------------ Section 3: INTRO TO MERGING ------------
 MERGE: In order to correctly merge within command-line, we need to be on the branch we want to merge into!
 
 git merge repo1 --> means that: If you are in a branch named "branch0 you will merge INTO IT, the changes of branch1
@@ -55,7 +60,59 @@ ADVICE:		Once we're done merging, we should delete the "merged" branch !!!
 
 
 
------------- Section 4 ------------
+
+------------ Section 4: BRANCHING AND MERGING WITH PULL REQUESTS ------------
+Scenario: You want to create a new local branch, to maka a change, andn then to pull this new branch to github
+git checkout -b demobranchforremote
+vi demo-file-for-upload
+git add demo-file-for-upload 
+git commit -m "create a new file for the new branch"
+git push origin demobranchforremote
+
+	➜  /home/ktsiagas/GIT/learngit git:(demobranchforremote) git push origin demobranchforremote
+	Enumerating objects: 4, done.
+	Counting objects: 100% (4/4), done.
+	Delta compression using up to 8 threads
+	Compressing objects: 100% (2/2), done.
+	Writing objects: 100% (3/3), 402 bytes | 402.00 KiB/s, done.
+	Total 3 (delta 0), reused 0 (delta 0)
+	remote:
+	remote: Create a pull request for 'demobranchforremote' on GitHub by visiting:
+	remote:      https://github.com/kontsia/learngit/pull/new/demobranchforremote
+	remote:
+	To github.com:kontsia/learngit.git
+	 * [new branch]      demobranchforremote -> demobranchforremote
+	➜  /home/ktsiagas/GIT/learngit git:(demobranchforremote)
+
+
+
+
 ------------ Section 5 ------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This is the last line of the file!
